@@ -1,0 +1,33 @@
+[15-Feb-2020 09:33:48 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 5
+[15-Feb-2020 09:34:55 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 5
+[15-Feb-2020 09:35:28 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 5
+[15-Feb-2020 09:35:45 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 5
+[15-Feb-2020 09:38:08 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 5
+[15-Feb-2020 09:38:19 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 5
+[15-Feb-2020 09:45:17 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 7
+[16-Feb-2020 11:36:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function test() in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 59
+[16-Feb-2020 11:37:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function test() in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 59
+[16-Feb-2020 11:46:16 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 57
+[16-Feb-2020 11:54:18 CST6CDT] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 32
+[16-Feb-2020 11:58:54 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 39
+[16-Feb-2020 11:59:49 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 39
+[16-Feb-2020 12:11:45 CST6CDT] PHP Parse error:  syntax error, unexpected 'was' (T_STRING), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 58
+[17-Feb-2020 07:41:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function test() in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 59
+[17-Feb-2020 07:42:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function test() in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 59
+[17-Feb-2020 08:09:52 CST6CDT] PHP Parse error:  syntax error, unexpected 'results' (T_STRING), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 41
+[17-Feb-2020 08:10:17 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 42
+[17-Feb-2020 08:13:06 CST6CDT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 6
+[17-Feb-2020 08:13:24 CST6CDT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/process.php on line 6
+[17-Feb-2020 08:35:56 CST6CDT] PHP Parse error:  syntax error, unexpected ')', expecting '(' in /home/twenty3bit/public_html/projects/cdojo/php/great_number_game/index.php on line 69

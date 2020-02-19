@@ -1,0 +1,18 @@
+[17-Feb-2020 02:56:24 CST6CDT] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting '(' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 28
+[17-Feb-2020 02:57:30 CST6CDT] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting '(' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 28
+[17-Feb-2020 02:57:57 CST6CDT] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting '(' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 29
+[17-Feb-2020 02:59:45 CST6CDT] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting '(' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 29
+[17-Feb-2020 03:00:25 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 78
+[17-Feb-2020 03:01:52 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 4
+[17-Feb-2020 03:02:17 CST6CDT] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 5
+[17-Feb-2020 03:02:50 CST6CDT] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 5
+[17-Feb-2020 03:07:24 CST6CDT] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 26
+[17-Feb-2020 03:08:26 CST6CDT] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 26
+[17-Feb-2020 03:30:07 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 81
+[17-Feb-2020 03:31:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function vardump() in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 83
+[17-Feb-2020 04:17:52 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 85
+[17-Feb-2020 04:18:06 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 85
+[17-Feb-2020 04:18:09 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 85

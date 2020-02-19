@@ -1,0 +1,30 @@
+[17-Feb-2020 09:39:57 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/index.php on line 20
+[17-Feb-2020 09:40:40 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 7
+[17-Feb-2020 09:41:00 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 7
+[17-Feb-2020 09:41:29 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 7
+[17-Feb-2020 09:42:01 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 7
+[17-Feb-2020 09:42:28 CST6CDT] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 7
+[17-Feb-2020 19:39:54 CST6CDT] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php on line 5
+[17-Feb-2020 19:40:11 CST6CDT] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php on line 5
+[17-Feb-2020 19:40:43 CST6CDT] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php on line 5
+[17-Feb-2020 19:41:15 CST6CDT] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php on line 6
+[17-Feb-2020 19:45:21 CST6CDT] PHP Fatal error:  Cannot use [] for reading in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php on line 12
+[17-Feb-2020 19:52:26 CST6CDT] PHP Parse error:  syntax error, unexpected '$string' (T_VARIABLE) in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php on line 5
+[19-Feb-2020 10:39:03 CST6CDT] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/test.php on line 30
+[19-Feb-2020 10:44:42 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 21
+[19-Feb-2020 10:45:20 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 21
+[19-Feb-2020 10:46:16 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 31
+[19-Feb-2020 14:24:10 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 55
+[19-Feb-2020 14:24:40 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/twenty3bit/public_html/projects/cdojo/php/registration/process.php on line 78
