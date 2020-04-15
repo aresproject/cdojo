@@ -1,0 +1,50 @@
+[09-Apr-2020 08:48:50 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/testcon.php on line 17
+[10-Apr-2020 09:58:02 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/view.php on line 47
+[10-Apr-2020 10:05:20 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/view.php on line 45
+[10-Apr-2020 10:11:00 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/view.php on line 41
+[10-Apr-2020 10:11:52 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/view.php on line 46
+[10-Apr-2020 10:12:36 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/view.php on line 66
+[11-Apr-2020 11:02:15 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 11
+[11-Apr-2020 11:18:29 CST6CDT] PHP Parse error:  syntax error, unexpected '.', expecting end of file in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 43
+[11-Apr-2020 19:45:20 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 26
+[12-Apr-2020 00:38:19 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 27
+[12-Apr-2020 10:15:00 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/main.php on line 48
+[12-Apr-2020 10:19:04 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 47
+[12-Apr-2020 12:23:50 CST6CDT] PHP Parse error:  syntax error, unexpected 'error_register' (T_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 51
+[12-Apr-2020 12:31:49 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 73
+[12-Apr-2020 12:34:55 CST6CDT] PHP Parse error:  syntax error, unexpected ''" . $_POST['' (T_CONSTANT_ENCAPSED_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 75
+[12-Apr-2020 12:36:05 CST6CDT] PHP Parse error:  syntax error, unexpected ''" . $_POST['' (T_CONSTANT_ENCAPSED_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 77
+[13-Apr-2020 03:49:32 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 86
+[13-Apr-2020 03:49:49 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 86
+[13-Apr-2020 03:50:00 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 86
+[13-Apr-2020 08:13:40 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 55
+[13-Apr-2020 09:18:08 CST6CDT] PHP Parse error:  syntax error, unexpected 'row' (T_STRING), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 53
+[13-Apr-2020 09:18:40 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 54
+[13-Apr-2020 09:18:54 CST6CDT] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 54
+[13-Apr-2020 09:50:01 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 94
+[13-Apr-2020 09:55:55 CST6CDT] PHP Parse error:  syntax error, unexpected '$cb' (T_VARIABLE) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 89
+[13-Apr-2020 09:57:01 CST6CDT] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 89
+[13-Apr-2020 11:28:24 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 28
+[13-Apr-2020 13:18:05 CST6CDT] PHP Parse error:  syntax error, unexpected 'red' (T_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 108
+[13-Apr-2020 14:40:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php:124
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 124
+[13-Apr-2020 14:56:53 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 124
+[13-Apr-2020 15:02:24 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 124
+[13-Apr-2020 15:06:34 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 124
+[13-Apr-2020 15:07:36 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 124
+[13-Apr-2020 15:18:04 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 124
+[13-Apr-2020 15:18:57 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 126
+[13-Apr-2020 15:19:32 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 126
+[13-Apr-2020 15:19:55 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 131
+[13-Apr-2020 15:20:26 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 131
+[13-Apr-2020 15:20:29 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 131
+[13-Apr-2020 15:20:30 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/process.php on line 131
+[14-Apr-2020 06:04:32 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 84
+[14-Apr-2020 06:45:27 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 85
+[14-Apr-2020 06:45:57 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 90
+[14-Apr-2020 06:45:58 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/twenty3bit/public_html/projects/cdojo/php/wishlist/dashboard.php on line 90
