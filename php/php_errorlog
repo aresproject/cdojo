@@ -10,3 +10,18 @@ Stack trace:
 #0 {main}
   thrown in /home/twenty3bit/public_html/projects/cdojo/php/debugging.php on line 5
 [19-Feb-2020 10:19:32 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/twenty3bit/public_html/projects/cdojo/php/debugging.php on line 22
+[25-Feb-2020 02:26:04 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/twenty3bit/public_html/projects/cdojo/php/coin_throw.php on line 3
+[25-Feb-2020 02:26:09 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/twenty3bit/public_html/projects/cdojo/php/coin_throw.php on line 3
+[25-Feb-2020 02:26:38 CST6CDT] PHP Parse error:  syntax error, unexpected ':' in /home/twenty3bit/public_html/projects/cdojo/php/coin_throw.php on line 6
+[25-Feb-2020 02:27:30 CST6CDT] PHP Parse error:  syntax error, unexpected '" head(s) so far and "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/coin_throw.php on line 8
+[29-Mar-2020 22:00:46 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/twenty3bit/public_html/projects/cdojo/php/sum_array_values.php on line 3
+[29-Mar-2020 22:40:26 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 30
+[29-Mar-2020 22:40:36 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 30
+[29-Mar-2020 22:41:04 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 30
+[29-Mar-2020 22:41:14 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 30
+[29-Mar-2020 22:41:32 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 30
+[29-Mar-2020 22:42:02 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 31
+[29-Mar-2020 22:44:38 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 34
+[29-Mar-2020 22:47:13 CST6CDT] PHP Parse error:  syntax error, unexpected '$record' (T_VARIABLE), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 39
+[29-Mar-2020 23:00:38 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 40
+[29-Mar-2020 23:04:27 CST6CDT] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/twenty3bit/public_html/projects/cdojo/php/html_table.php on line 57

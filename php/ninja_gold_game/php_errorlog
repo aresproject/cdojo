@@ -16,3 +16,17 @@ Stack trace:
 [17-Feb-2020 04:17:52 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 85
 [17-Feb-2020 04:18:06 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 85
 [17-Feb-2020 04:18:09 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 85
+[20-Feb-2020 00:42:33 CST6CDT] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/test.php on line 7
+[20-Feb-2020 04:23:57 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 108
+[20-Feb-2020 04:26:01 CST6CDT] PHP Parse error:  syntax error, unexpected 'hidden' (T_STRING) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 109
+[20-Feb-2020 05:08:57 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 7
+[20-Feb-2020 05:09:34 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 7
+[20-Feb-2020 05:52:37 CST6CDT] PHP Parse error:  syntax error, unexpected 'rand' (T_STRING), expecting ',' or ';' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 85
+[09-Apr-2020 11:14:34 CST6CDT] PHP Fatal error:  Cannot use [] for reading in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 21
+[09-Apr-2020 11:35:35 CST6CDT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 26
+[09-Apr-2020 13:43:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function vardump() in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/index.php on line 134
+[09-Apr-2020 13:50:37 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 20
+[09-Apr-2020 13:51:20 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/twenty3bit/public_html/projects/cdojo/php/ninja_gold_game/process.php on line 20
