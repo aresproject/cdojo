@@ -1,4 +1,5 @@
+
 <ul>
-	<li><a href="wishlist.php">Home</a></li>
-	<li><a href="logout.php">Logout</a></li>
+	<li><a href="/wishlist/">Home</a></li>
+	<li><a href="/user/logout/">Logout</a></li>
 </ul>

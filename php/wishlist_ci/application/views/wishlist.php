@@ -12,14 +12,14 @@
 </head>
 <body>
 	<div id="wrapper">
-		<?php
-			include_once("views/partials/header.php");
-		?>
-		<h2>Hello, <?= $_SESSION["user"]["username"] ?></h2>
+		
+		
+		<h2>Hello, <?php echo isset($_SESSION['logged_name']) ? $_SESSION['logged_name'] : ""; ?></h2>
+		
 
 		<h3>Your Wish List</h3>
 		<h4><a href="controllers/wishlist.php?q=create">Add Wish</a></h4>
-		<h4 style="color: red;"><?php echo isset($_SESSION['response']['message']) ? $_SESSION['response']['message'] : ""; ?></h4>
+		<h4 style="color: red;"><?php //echo isset($_SESSION['response']['message']) ? $_SESSION['response']['message'] : ""; ?></h4>
 		<table id="my_wish_list">
 			<thead>
 				<tr>
@@ -30,12 +30,24 @@
 				</tr>
 			</thead>
 			<tbody>
-				<?= $view_data["items"] ?>
+			<?php foreach($logged_user_wishlist as $items): ?>
+				<tr>
+					<td><a href='<?= "/wishlist/item_view/{$items['item_id']}/{$items['item_name']}" ?>'><?= $items['item_name'] ?></a></td>
+					<td><?= $items['adder_name'] ?></td>
+					<td><?= date('Y-m-d', strtotime($items['created_at'])) ?> </td>
+					
+					<?php $option = $items['user_id'] == $_SESSION['logged_userid'] ? "Delete" : "Remove" ; ?>
+					
+					<td><a href='<?= "/wishlist/delete/" . $items['item_id'] ;  ?>' >
+						<?= $option; ?>
+					</a></td>
+				</tr>
+			<?php endforeach; ?>
 			</tbody>
 		</table>
 
 		<h3>Other's Wish List</h3>
-		<table id="others_wish_list">
+		<table id="//others_wish_list">
 			<thead>
 				<tr>
 					<th>Item</th>
@@ -45,7 +57,14 @@
 				</tr>
 			</thead>
 			<tbody>
-				<?= $view_data["other_items"] ?>
+			<?php foreach($other_user_wishlist as $items): ?>
+				<tr>
+					<td><a href='<?= "/wishlist/item_view/{$items['item_id']}/{$items['item_name']}"   ?>'><?= $items['item_name'] ?></a></td>
+					<td><?= $items['adder_name'] ?></td>
+					<td><?= date('Y-m-d', strtotime($items['created_at'])) ?> </td>
+					<td><a href='<?= "/wishlist/add/" . $items['item_id'] ;  ?>' >Add</a></td>
+				</tr>
+				<?php endforeach; ?>
 			</tbody>
 		</table>
 	</div>

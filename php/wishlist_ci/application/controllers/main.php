@@ -11,6 +11,7 @@ class Main extends CI_Controller {
     }
 
     public function index() {
+        date_default_timezone_set('Asia/Hong_Kong');
         $this->load->view('home');
     }
 
@@ -20,8 +21,5 @@ class Main extends CI_Controller {
         $view_data['wishlist'] = $this->DBtest->get_wishlists();
         $this->load->view('test', $view_data);
     }
-
-
-
 
 }
