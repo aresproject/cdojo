@@ -11,7 +11,7 @@ class Wishlist extends CI_Controller {
         //$this->load->model('wishlist_model');
         $view_data['logged_user_wishlist'] = $this->wishlist_model->get_wishlist($_SESSION['logged_userid']);
         $view_data['other_user_wishlist'] = $this->wishlist_model->get_wishlist();
-        $this->load->view('/header/menu');
+        $this->load->view('/header/heading')->view('/header/menu');
         $this->load->view('wishlist', $view_data);
         $this->load->view('/footer/footer');
     }
@@ -43,8 +43,19 @@ class Wishlist extends CI_Controller {
         
     }
 
-    public function remove($recid) {
+    public function add($item_id, $creator_id){
+        $this->wishlist_model->wishlist_add($item_id, $creator_id);
+        redirect('/wishlist/');
+    }
 
+    public function remove($recid) {
+        $this->wishlist_model->wishlist_remove($recid);
+        redirect('/wishlist/');
+    }
+
+    public function delete($itemid) {
+        $this->wishlist_model->wishlist_delete($itemid);
+        redirect('/wishlist/');
     }
 
 }

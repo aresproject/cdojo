@@ -63,7 +63,7 @@ class Wishlist_model extends CI_Model {
         $this->db->select('*')->where('item_name', $post_data);
         $query = $this->db->get('items');
         if($query->num_rows() > 0) {
-            $this->session->set_flashdata('error', 'Item already created... Please check other users wishlist');
+            $this->session->set_flashdata('notice', 'Item already created... Please check other users wishlist');
             return false;
         } else {
             $items = array(
@@ -93,18 +93,43 @@ class Wishlist_model extends CI_Model {
 
     }
 
-    public function add(){
+    public function wishlist_add($item_id, $creator_id){
+        $this->db->select('*')->where('item_id', $item_id)
+                              ->where('added_by_user_id', $_SESSION['logged_userid']);
+        $query = $this->db->get('user_wishlists');
+        $x = $this->db->last_query();
+        if($query->num_rows() > 0) {
+            $this->session->set_flashdata('notice', 'Item is already in your wishlist... Please add items from other users or create a new one');
+            return false;
+        } else {
+            $wishlists = array(
+                'added_by_user_id' => $_SESSION['logged_userid'],
+                'user_id' => $creator_id,
+                'item_id' => $item_id,
+                'created_at' => date("Y-m-d H:i:s")
+            );
+            if($this->db->insert('user_wishlists', $wishlists)) {
+                $x = $this->db->last_query();
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
+
+    public function wishlist_remove($recid) {
+        $this->db->delete('user_wishlists', array('id' => $recid));
+    }
+
+    public function wishlist_delete($itemid) {
+
+        $this->db->delete('user_wishlists', array('item_id' => $recid));
+        $this->db->delete('items', array('id' => $recid));
+        $this->session->set_flashdata('notice', "Item Deleted from system");
         
     }
 
-    public function delete($item_id) {
 
-    }
-
-    public function remove($recid) {
-        
-
-    }
 
 
 }

@@ -4,20 +4,19 @@ DONE
 - wishlist view other user
 - item users view
 - Create item view with create item + add to wishlist
+- Fix duplicate item name entry
+- Fix duplicate username entry on register
+- Adding items from other users wishlist
+- Removing wishlist item per logged user
+- Deleting item -> where it will delete all wishlist entries under that item.
+- Validation errors not showing
 
 PENDING
 * Global Session checker if user is login on every views
-* Removing wishlist item per logged user
-* Deleting item -> where it will delete all wishlist entries under that item.
-* Adding items from other users wishlist
 * Validation when creating items
-* Validation errors not showing
-
-* User Registration
-    - Form Validation
-    - Duplicate Username checker
 
 
+Side Quests
 * Admin Features *
     - Last time user login
     - User login time lapse
