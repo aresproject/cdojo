@@ -43,9 +43,6 @@ class Wishlist_model extends CI_Model {
             $sql .= " WHERE listed_items.added_by_user_id != " . $_SESSION['logged_userid'];
         }
         $query = $this->db->query($sql);
-       
-        //$x = $this->db->last_query();
-
         return $query->result_array();
     }
 
@@ -60,6 +57,53 @@ class Wishlist_model extends CI_Model {
         //$query = $this->db->get();
         return $query->result_array();
         
+    }
+
+    public function item_create($post_data){
+        $this->db->select('*')->where('item_name', $post_data);
+        $query = $this->db->get('items');
+        if($query->num_rows() > 0) {
+            $this->session->set_flashdata('error', 'Item already created... Please check other users wishlist');
+            return false;
+        } else {
+            $items = array(
+                'user_id' => $_SESSION['logged_userid'],
+                'item_name' => $post_data,
+                'created_at' => date("Y-m-d H:i:s")
+            );
+            if($this->db->insert('items', $items)) {
+                $insert_id = $this->db->insert_id();
+                $wishlist_items = array(
+                    'added_by_user_id' => $_SESSION['logged_userid'],
+                    'user_id' => $_SESSION['logged_userid'],
+                    'item_id' => $insert_id,
+                    'created_at' => date("Y-m-d H:i:s")
+                );
+                if($this->db->insert('user_wishlists', $wishlist_items)){
+                    return true;
+                } else {
+                    return false;
+                }
+
+            } else {
+                return false;
+            }
+        }
+
+
+    }
+
+    public function add(){
+        
+    }
+
+    public function delete($item_id) {
+
+    }
+
+    public function remove($recid) {
+        
+
     }
 
 

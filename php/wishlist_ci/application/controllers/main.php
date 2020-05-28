@@ -12,6 +12,7 @@ class Main extends CI_Controller {
 
     public function index() {
         date_default_timezone_set('Asia/Hong_Kong');
+        $this->load->view('header/heading');
         $this->load->view('home');
     }
 
