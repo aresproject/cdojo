@@ -9,8 +9,8 @@ class User extends CI_Controller {
     public function login() {
 
         //validate Form
-        $this->form_validation->set_rules('login_username', 'Your User Name', 'required|min_length[5]');
-        $this->form_validation->set_rules('login_password', 'Your Password', 'required');
+        $this->form_validation->set_rules('login_username', 'Login User Name', 'required|min_length[5]');
+        $this->form_validation->set_rules('login_password', 'Login Password', 'required');
 
         if($this->form_validation->run()){
             if($this->user_model->can_login()){
@@ -18,9 +18,10 @@ class User extends CI_Controller {
                 redirect('/wishlist/'); //proceed to dashboard
             } else {
                 $this->session->set_flashdata('error', 'Invalid Username and Password');
-                redirect('/main/'); //Go Back To Login Page
+                redirect('/main/'); //Go Back To Login Page -- 
             }
         } else {
+            $this->session->set_flashdata('notice', validation_errors());
             redirect('/main/'); //Go Back To Login Page
             
         }
@@ -32,7 +33,7 @@ class User extends CI_Controller {
     }
 
     public function register(){
-        $this->form_validation->set_rules('name', 'Your Name', 'required');
+        $this->form_validation->set_rules('register_name', 'Your Name', 'required');
         $this->form_validation->set_rules('username', 'Your User Name', 'required');
         $this->form_validation->set_rules('password', 'Password', 'required');
         $this->form_validation->set_rules('confirm_password', 'Password Confirmation', 'required|matches[password]');
@@ -42,20 +43,11 @@ class User extends CI_Controller {
                 redirect('/main/');
             }
         } else {
-            redirect('/main/'); //Go Back To Login Page
+            $this->session->set_flashdata('notice', validation_errors());
+            redirect('/main/');
         }
 
-        /* if($this->form_validation->run() == FALSE){
-            redirect('/main/'); //Go Back To Login Page
-        } else {
-            if($this->user_model->user_register()) {
-                redirect('/main/');
-            }
-        } */
-
-        //$x = $this->user_model->user_register();
-
-        $this->load->view('header/heading')->view('home');
+        redirect('/main/');
     }
 
     

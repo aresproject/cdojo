@@ -3,20 +3,16 @@
 	<div id="wrapper">
 		
 		<h2>Welcome To Wishlist App CI Version 0.1</h2>
-       
-        
-		<h4><?php echo validation_errors(); ?></h4>
-		
+		<?php
+			if ($this->session->flashdata('notice')) {
+				echo "<h3> {$this->session->flashdata('notice')} </h3>";
+			}
+		?>
 		<?php echo form_open('/user/register'); ?>
 			<fieldset>
-			<?php
-				if ($this->session->flashdata('notice')) {
-					echo "<h3> {$this->session->flashdata('notice')} </h3>";
-				}
-			?>
 				<legend>Register</legend>
 				<label for="">Name</label>
-				<input type="text" name="name" >
+				<input type="text" name="register_name" >
 				<label for="">Username</label>
 				<input type="text" name="username" >
 				<label for="">Password</label>

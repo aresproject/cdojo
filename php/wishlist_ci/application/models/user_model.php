@@ -37,16 +37,18 @@ class User_model extends CI_Model {
             return false;
         } else {
             $users= array(
-                'name' => $this->input->post['name'],
+                'name' => $this->input->post('register_name'),
                 'username' => $this->input->post('username'),
                 'password' => $this->input->post('password'),
                 'hired_at' => $this->input->post('hired_at'),
                 'created_at' => date("Y-m-d H:i:s")
             );
             if($this->db->insert('users', $users)) {
+                $x = $this->db->last_query();
                 $this->session->set_flashdata('notice', 'User registered... please use login form below to proceed');
                 return true;
             } else {
+                $x = $this->db->last_query();
                 $this->session->set_flashdata('notice', 'Please try again later');
                 return false;
             }

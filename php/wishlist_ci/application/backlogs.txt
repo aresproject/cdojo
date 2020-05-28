@@ -6,19 +6,20 @@ DONE
 - Create item view with create item + add to wishlist
 
 PENDING
-1. Global Session checker if user is login on every views
-2. Removing wishlist item per logged user
-3. Deleting item -> where it will delete all wishlist entries under that item.
-4. Adding items from other users wishlist
-5. Validation when creating items
+* Global Session checker if user is login on every views
+* Removing wishlist item per logged user
+* Deleting item -> where it will delete all wishlist entries under that item.
+* Adding items from other users wishlist
+* Validation when creating items
+* Validation errors not showing
 
-5. User Registration
+* User Registration
     - Form Validation
     - Duplicate Username checker
 
 
-6. Admin Features *
+* Admin Features *
     - Last time user login
     - User login time lapse
 
-7. 
+* 
